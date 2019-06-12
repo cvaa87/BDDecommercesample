@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="19.619733">
+    <testcase classname="Login feature" name="Login Test scenario" time="11.890337">
+        <system-out>
+            <![CDATA[Given user is on Landingpage................................................passed
+When user clicks Login link.................................................passed
+Then user enters "test10103@mailinator.com" and "qwerty"....................passed
+And user clicks Login button................................................passed
+Then user is on homepage....................................................passed
+Then username is displayed on homepage......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login feature" name="Login Test scenario 2" time="7.729396">
+        <system-out>
+            <![CDATA[Given user is on Landingpage................................................passed
+When user clicks Login link.................................................passed
+Then user enters "abc" and "sdfd"...........................................passed
+And user clicks Login button................................................passed
+Then user is on homepage....................................................passed
+Then username is displayed on homepage......................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

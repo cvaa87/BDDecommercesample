@@ -1,0 +1,204 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Login Test scenario",
+        "description": "",
+        "id": "login-feature;login-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9207656676,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Landingpage",
+            "match": {
+              "location": "StepDefinition.user_is_on_landingpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 890365023,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks Login link",
+            "match": {
+              "location": "StepDefinition.user_clicks_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1792130746,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"test10103@mailinator.com\" and \"qwerty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test10103@mailinator.com",
+                  "offset": 13
+                },
+                {
+                  "val": "qwerty",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinition.user_enters_username_and_passsword(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 128378,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks Login button",
+            "match": {
+              "location": "StepDefinition.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26430,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on homepage",
+            "match": {
+              "location": "StepDefinition.user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29452,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "username is displayed on homepage",
+            "match": {
+              "location": "StepDefinition.username_is_displayed_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Login Test scenario",
+        "description": "",
+        "id": "login-feature;login-test-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6749442879,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Landingpage",
+            "match": {
+              "location": "StepDefinition.user_is_on_landingpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 821474879,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks Login link",
+            "match": {
+              "location": "StepDefinition.user_clicks_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158370191,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"abc\" and \"sdfd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc",
+                  "offset": 13
+                },
+                {
+                  "val": "sdfd",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.user_enters_username_and_passsword(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 59281,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks Login button",
+            "match": {
+              "location": "StepDefinition.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24543,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on homepage",
+            "match": {
+              "location": "StepDefinition.user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24166,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "username is displayed on homepage",
+            "match": {
+              "location": "StepDefinition.username_is_displayed_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
